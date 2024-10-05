@@ -4,3 +4,54 @@
 *:after {
   box-sizing: border-box;
 }
+
+.home-ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+  list-style: none;
+  background-color: #242332;
+  color: white;
+}
+
+.car-upgrades-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  background-color: #266297;
+  text-align: center;
+  padding: 5%;
+}
+
+.img-banner-car {
+  width: 80%;
+  position: relative;
+  bottom: 150px;
+  z-index: -1;
+  margin: auto 10% auto 10%;
+}
+
+.container-order-car {
+  color: #266297;
+  font-weight: bold;
+  position: relative;
+  background: rgb(188 188 188 / 43%);
+  font-size: small;
+  width: 10em;
+  height: 8.5em;
+}
+
+.btn-order-car {
+  background-color: #266297;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+
+.container-car-banner {
+  position: relative;
+}
+
+.car-order-paragraph {
+  margin: 0%;
+}
