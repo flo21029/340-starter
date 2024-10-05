@@ -26,7 +26,6 @@
 .img-banner-car {
   width: 80%;
   position: relative;
-  bottom: 150px;
   z-index: -1;
   margin: auto 10% auto 10%;
 }
@@ -34,11 +33,11 @@
 .container-order-car {
   color: #266297;
   font-weight: bold;
-  position: relative;
+  position: absolute;
   background: rgb(188 188 188 / 43%);
   font-size: small;
   width: 10em;
-  height: 8.5em;
+  height: 9.5em;
 }
 
 .btn-order-car {
