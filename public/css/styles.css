@@ -83,9 +83,11 @@ html {
   font-weight: bold;
   position: absolute;
   background: rgb(188 188 188 / 43%);
-  font-size: small;
-  width: 10em;
-  height: 9.5em;
+  font-size: x-small;
+  width: 12em;
+  height: 13em;
+  margin-left: 5%;
+  padding: 10px;
 }
 
 .btn-order-car {
@@ -93,6 +95,7 @@ html {
   color: white;
   font-weight: bold;
   position: absolute;
+  margin-top: 5px;
 }
 
 .container-car-banner {
@@ -130,7 +133,13 @@ html {
 
   .container-order-car {
     font-size: large;
-    width: 11em;
-    height: 12em;
+    width: 11.5em;
+    height: 13em;
+  }
+
+  .btn-order-car {
+    width: 10em;
+    margin-top: 3em;
+    height: 3em;
   }
 }
