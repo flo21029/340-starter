@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 #top-header {
   display: grid;
   grid-template-columns: auto auto;
@@ -120,5 +126,11 @@
 
   .review-description {
     margin-bottom: 1.5em;
+  }
+
+  .container-order-car {
+    font-size: large;
+    width: 11em;
+    height: 12em;
   }
 }
