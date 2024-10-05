@@ -47,6 +47,8 @@
   list-style: none;
   background-color: #242332;
   color: white;
+  height: 2.5em;
+  align-items: center;
 }
 
 .car-upgrades-container {
