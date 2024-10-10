@@ -58,6 +58,24 @@ Util.buildClassificationGrid = async function(data){
 }
 
 
+/* **************************************
+* Build the detail view HTML
+* ************************************ */
+Util.buildDetailGrid = async function(data){
+  if(data.length > 0){
+    return `<div clas="car-details-container">
+                <img src="${data[0].inv_image}" alt="car">
+                <p>${data[0].inv_make} ${data[0].inv_model} Details</p>
+                <p><span>Description</span>: ${data[0].inv_description}</p>
+                <p>Color: ${data[0].inv_color}</p>
+                <p>Miles: ${data[0].inv_miles}</p>
+            <div>`
+  } else { 
+    return '<p class="notice">Sorry, no matching vehicles could be found.</p>'
+  }S
+}
+
+
 /* ****************************************
  * Middleware For Handling Errors
  * Wrap other function in this for 

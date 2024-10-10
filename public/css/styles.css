@@ -115,6 +115,10 @@ html {
   margin-bottom: 0.5em;
 }
 
+.car-details-container{
+
+}
+
 @media screen and (min-width: 700px) {
   .containers-car-all-details {
     display: grid;
@@ -147,4 +151,9 @@ html {
     margin-top: 3em;
     height: 3em;
   }
+
+  .car-details-container{
+
+  }
+
 }
