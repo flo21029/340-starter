@@ -63,9 +63,10 @@ Util.buildClassificationGrid = async function(data){
 * ************************************ */
 Util.buildDetailGrid = async function(data){
   if(data.length > 0){
-    return `<div clas="car-details-container">
+    return `<div class="car-details-container">
                 <img src="${data[0].inv_image}" alt="car">
                 <p>${data[0].inv_make} ${data[0].inv_model} Details</p>
+                <p>Price: $${data[0].inv_price}</p>
                 <p><span>Description</span>: ${data[0].inv_description}</p>
                 <p>Color: ${data[0].inv_color}</p>
                 <p>Miles: ${data[0].inv_miles}</p>

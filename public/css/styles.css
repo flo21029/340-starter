@@ -116,7 +116,9 @@ html {
 }
 
 .car-details-container{
-
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
 }
 
 @media screen and (min-width: 700px) {
@@ -153,7 +155,9 @@ html {
   }
 
   .car-details-container{
-
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
   }
 
 }
